@@ -42,7 +42,7 @@ while True:
 		print(ticker + ":\t\t$" + price)
 		print()
 
-	choice2 = input("Again? (y/n)")
+	choice2 = input("Search for another cryptocurrency price? (y/n)")
 	if choice2 == "y":
 		continue
 	if choice2 == "n":
