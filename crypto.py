@@ -11,11 +11,13 @@ while True:
 	data = r.json()
 
 	globalMarketCap = data['total_market_cap_usd']
+	bitcoin_percentage_of_market_cap = data['bitcoin_percentage_of_market_cap']
 
 	# menu
 	print()
 	print("Crypto Price Query")
 	print("Global cap of all cryptos: $" + str(globalMarketCap))
+	print("Bitcoin dominance: " + str(bitcoin_percentage_of_market_cap) + "%")
 	print("Enter 'all' or 'name of crypto' i.e. bitcoin, ripple, tron, ethereum,...")
 	print()
 	choice = input("Enter crypto symbol or name: ")
