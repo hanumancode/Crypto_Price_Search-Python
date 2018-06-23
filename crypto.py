@@ -2,7 +2,7 @@ import requests
 
 while True:
 
-	# base URLs
+	# base URLs using version 1 of the CoinMarketCap API (version 1 expires Nov. 2018)
 	globalURL = "https://api.coinmarketcap.com/v1/global/"
 	tickerURL = "https://api.coinmarketcap.com/v1/ticker/"
 
